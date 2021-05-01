@@ -1,0 +1,29 @@
+{
+  "name": "ia-backend",
+  "version": "1.0.0",
+  "description": "ili Account backend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon --watch src/ src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qilip/ia-backend.git"
+  },
+  "author": "qilip",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qilip/ia-backend/issues"
+  },
+  "homepage": "https://github.com/qilip/ia-backend#readme",
+  "dependencies": {
+    "koa": "^2.13.1",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^10.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
