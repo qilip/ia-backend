@@ -1,1 +1,5 @@
+#Node.js module foler
 /node_modules
+
+#Env file
+.env
