@@ -12,9 +12,9 @@ generator client {
 
 model User {
   id              String    @id @default(cuid())
-  uuid            String    @unique @default(uuid())
+  uuid            String    @db.Uuid @unique @default(uuid())
   email           String    @unique
-  password        String
+  password        String?
   name            String
   nickname        String    @unique
   role            Role      @default(USER)

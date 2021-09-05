@@ -47,7 +47,7 @@ export const emailRegister = async (ctx) => {
         {
           email: ctx.request.body.email,
         },
-        '30m',
+        '15m',
       );
     } catch (e) {
       ctx.throw(500, e);
